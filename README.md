@@ -1,4 +1,4 @@
-# coldfusion-large-file-upload-example
+# ColdFusion Large File Upload Example
 Example shows how to upload large files using ColdFusion.
 
 ## Purpose
