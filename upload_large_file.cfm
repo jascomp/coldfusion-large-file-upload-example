@@ -8,7 +8,7 @@
         binaryChunk = fileReadBinary(form.chunk);
 
         /*
-            Make sure to cleanup the temporary file because we are still utlimately going to be uploading a 
+            Make sure to cleanup the temporary file because we are still ultimately going to be uploading a 
             large file to the server.  We don't want the server drive that holds the ColdFusion temp directory
             to fill up
         */
