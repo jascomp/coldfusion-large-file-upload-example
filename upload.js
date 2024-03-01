@@ -62,7 +62,7 @@ submitButton.addEventListener("click",(e) => {
         const chunkSize = 1024 * 1024;
         const totalChunks = Math.ceil(file.size / chunkSize);
 
-        // Setup chunk array with starting byte and endbyte that will be slied from the file and uploaded
+        // Setup chunk array with starting byte and endbyte that will be sliced from the file and uploaded
         let startByte = 0;
         for (var i = 1; i <= totalChunks; i++) {
             let endByte = Math.min(startByte + chunkSize,file.size);
